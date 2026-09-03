@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="QuozYcvzlxeQJYlQaqk8">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gc5G4SBQNG0KObX64ase-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Alta Curso" vertex="1">
+          <mxGeometry height="80" width="80" x="370" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="gc5G4SBQNG0KObX64ase-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Preceptor" vertex="1">
+          <mxGeometry height="30" width="140" x="100" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gc5G4SBQNG0KObX64ase-4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="600" y="229.5" as="sourcePoint" />
+            <mxPoint x="680" y="229.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gc5G4SBQNG0KObX64ase-5" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="600" y="260" as="sourcePoint" />
+            <mxPoint x="680" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gc5G4SBQNG0KObX64ase-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Cursos" vertex="1">
+          <mxGeometry height="30" width="60" x="610" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="gc5G4SBQNG0KObX64ase-10" edge="1" parent="1" source="gc5G4SBQNG0KObX64ase-3" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" target="gc5G4SBQNG0KObX64ase-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="230" as="sourcePoint" />
+            <mxPoint x="460" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gc5G4SBQNG0KObX64ase-12" connectable="0" parent="gc5G4SBQNG0KObX64ase-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Datos_curso" vertex="1">
+          <mxGeometry relative="1" x="-0.074" y="-2" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gc5G4SBQNG0KObX64ase-13" edge="1" parent="1" source="gc5G4SBQNG0KObX64ase-2" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="gc5G4SBQNG0KObX64ase-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="230" as="sourcePoint" />
+            <mxPoint x="460" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gc5G4SBQNG0KObX64ase-16" connectable="0" parent="gc5G4SBQNG0KObX64ase-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Curso_registrado" vertex="1">
+          <mxGeometry relative="1" x="-0.1853" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gc5G4SBQNG0KObX64ase-17" connectable="0" parent="gc5G4SBQNG0KObX64ase-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Curso_existente" vertex="1">
+          <mxGeometry relative="1" x="-0.4588" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gc5G4SBQNG0KObX64ase-18" edge="1" parent="1" source="gc5G4SBQNG0KObX64ase-2" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" target="gc5G4SBQNG0KObX64ase-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="230" as="sourcePoint" />
+            <mxPoint x="460" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gc5G4SBQNG0KObX64ase-21" connectable="0" parent="gc5G4SBQNG0KObX64ase-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Curo_guardado" vertex="1">
+          <mxGeometry relative="1" x="-0.0863" y="2" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gc5G4SBQNG0KObX64ase-22" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.975;entryY=0.675;entryDx=0;entryDy=0;entryPerimeter=0;" target="gc5G4SBQNG0KObX64ase-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="260" as="sourcePoint" />
+            <mxPoint x="460" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gc5G4SBQNG0KObX64ase-24" connectable="0" parent="gc5G4SBQNG0KObX64ase-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Curso_datos" vertex="1">
+          <mxGeometry relative="1" x="0.1795" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
